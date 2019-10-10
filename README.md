@@ -23,7 +23,7 @@ Navigate to https://fcw1987.github.io/pingPong
 input a number into the input field then click submit to see your results.
 
 
-### BDD
+### BDD Specs
 | Behavior  |  Input |  Output |
 |---|---|---|
 | a number that is not divisible by 3,5, or 15  |  7 |  1,2,ping,4,pong,ping,7 |
