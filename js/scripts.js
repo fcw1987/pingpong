@@ -2,16 +2,16 @@
 var pingPong = function(numbers) {
   var pingPongResults =[];
   for (i=1; i<=numbers; i+=1){
-    if ((i%3 !=0) && (i%5 !=0) && (i%15 !=0)){
-      pingPongResults.push(i);
-    } else if ((i%15===0)){
+     if ((i%15===0)){
         pingPongResults.push("pingpong");
     } else if (i%5===0){
         pingPongResults.push("pong");
     } else if (i%3===0){
         pingPongResults.push("ping");
       }
-    }
+      else ((i%3 !=0) && (i%5 !=0) && (i%15 !=0))
+        pingPongResults.push(i);
+      }
 
   return pingPongResults;
   }
