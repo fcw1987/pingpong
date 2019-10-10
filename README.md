@@ -23,6 +23,14 @@ Navigate to https://fcw1987.github.io/pingPong
 input a number into the input field then click submit to see your results.
 
 
+### BDD
+| Behavior  |  Input |  Output |
+|---|---|---|
+| a number that is not divisible by 3,5, or 15  |  7 |  1,2,ping,4,pong,ping,7 |
+| a number that is divisible by 3 - display 'ping'|  3 |  1,2,ping |
+| a number that is divisible by 5 - display 'pong' | 5  |  1,2,ping,4,pong |
+| a number that is divisible by 15 - display 'pingpong'  |  15 |  1,2,ping,4,pong,ping,7,8,ping,pong,11,ping,13,14,pingpong |
+
 ## Built With
 
 html
